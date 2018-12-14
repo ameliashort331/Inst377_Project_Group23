@@ -1,0 +1,56 @@
+.results {
+  width: 80%;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+#container {
+  width: 80%;
+  height: 25%;
+  padding: 5%;
+  margin: auto;
+}
+
+#location {
+  width: 100%;
+}
+
+#insurance {
+  width: 100%;
+}
+
+#cost {
+  width: 100%;
+}
+
+.field {
+  float: left;
+  margin-left: 2%;
+}
+
+.button-color {
+  background-color: #aaa;
+  color: white;
+  clear: both;
+  float: right;
+  display: block;
+  position: relative;
+  margin-top: 42%;
+}
+
+.title {
+  margin-left: 4%;
+  padding-top: 1%;
+  color: white;
+}
+
+.info-label {
+  padding: 20px;
+}
+
+.top {
+  background-color: #5b9aff;
+  box-shadow: 0px 3px #888888;
+  height: 124px;
+  width: 100%;
+}

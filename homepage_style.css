@@ -1,0 +1,59 @@
+body {
+   background-image: url("background.jpg");
+   background-position: left bottom;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#container {
+  width: 80%;
+  height: 35%;
+  background: rgba(204,204,204,0.7);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 2%;
+
+  margin: auto;
+
+  border-radius: 15px 50px 30px;
+}
+
+#location {
+  width: 100%;
+}
+
+#insurance {
+  width: 100%;
+}
+
+#cost {
+  width: 100%;
+}
+
+.field {
+  float: left;
+  margin-left: 2%;
+  opacity: 1;
+}
+
+.button-color {
+  background-color: white;
+  color: black;
+  clear: both;
+  float: right;
+  display: block;
+  position: relative;
+}
+
+.title {
+  margin-left: 17%;
+  margin-top: 2%;
+}
+
+.label {
+  font-size: 25px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Mental Health Resources</title>
+    <link rel = 'stylesheet' href = 'css/bootstrap.min.css' >
+    <link rel = 'stylesheet' href = 'homepage_style.css' >
+
+  </head>
+
+  <body>
+    <h1 class="display-4 title">Mental Health Resources</h1>
+
+    <div id = 'container'>
+      <form name = "form" action="results.php" method="POST" onsubmit="return validateForm()" >
+        <div class = "field">
+          <label for="location" class = "label">Select location:</label>
+          <select name="city" class = "form-control" id = "location">
+
+            <option value="--">--</option>
+            <option value="College Park">College Park</option>
+            <option value="Berwyn Heights">Berwyn Heights</option>
+            <option value="Greenbelt">Greenbelt</option>
+            <option value="Hyattsville">Hyattsville</option>
+
+          </select><br><br>
+        </div>
+
+
+        <div class = "field">
+          <label for="cost" class = "label">Max cost per session:</label>
+          <select name="cost" class = "form-control" id = "cost">
+
+            <option value="--">--</option>
+            <option value="100">$100</option>
+            <option value="150">$150</option>
+            <option value="200">$200</option>
+            <option value="250">$250</option>
+            <option value="300">$300</option>
+
+          </select><br><br>
+
+        </div>
+
+        <div class = "field">
+          <label for="specialty" class = "label">Specialty</label>
+          <select name="specialty" class = "form-control" id = "cost">
+
+            <option value="--">--</option>
+            <option value="Trauma and PTSD">Trauma and PTSD</option>
+            <option value="Anxiety">Anxiety</option>
+            <option value="Depression">Depression</option>
+            <option value="Family Conflict">Family Conflict</option>
+            <option value="Grief">Grief</option>
+
+          </select><br><br>
+
+        </div>
+
+        <button type="submit" class="btn btn-default button-color">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>
